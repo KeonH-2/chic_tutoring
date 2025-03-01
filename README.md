@@ -1,1 +1,1 @@
-# chic_tutoring
+# Chic Tutoring
