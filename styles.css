@@ -67,14 +67,15 @@ li {
   color: rgb(255, 167, 51);
   font-weight: bold;
   padding: 10px 20px;
+  transition: 0.5s;
 }
 
 .instar:hover {
-  color: rgb(249, 141, 0);
+  color: rgb(0, 187, 22);
 }
 
 .git:hover {
-  color: rgb(255, 145, 0);
+  color: rgb(0, 187, 22);
 }
 
 .navbar {
@@ -84,11 +85,12 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 50px;
+  padding: 0 30px;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1000;
+  padding: 0 30px;
 }
 
 .nav-logo {
@@ -101,6 +103,8 @@ li {
   list-style: none;
   display: flex;
   gap: 20px;
+  flex-grow: 1;
+  justify-content: flex-end;
 }
 
 .nav-links li {
@@ -111,9 +115,15 @@ li {
   color: white;
   text-decoration: none;
   font-size: 18px;
+  padding: 10px 15px;
 }
 
 .nav-links a:hover {
   transition: 0.5s;
   color: #ff9f43;
+}
+
+.date {
+  font-size: x-large;
+  font-weight: 400;
 }
